@@ -1,0 +1,165 @@
+{
+  "category": [
+    {
+      "category": "AMD",
+      "id": 0
+    },
+    {
+      "category": "BMW",
+      "id": 0
+    },
+    {
+      "category": "斯巴鲁一",
+      "id": 0
+    }
+  ],
+  "countScore": [
+    {
+      "positiveScore": 12,
+      "negativeScore": 4,
+      "countSum": 16,
+      "category": "AMD"
+    }
+  ],
+  "countTop5": [
+    {
+      "count": 17,
+      "opinionWord": "高",
+      "polarity": 1
+    },
+    {
+      "count": 16,
+      "opinionWord": "高1",
+      "polarity": 1
+    },
+    {
+      "count": 17,
+      "opinionWord": "差",
+      "polarity": -1
+    },
+    {
+      "count": 17,
+      "opinionWord": "高2",
+      "polarity": 1
+    },
+    {
+      "count": 17,
+      "opinionWord": "差1",
+      "polarity": -1
+    },
+    {
+      "count": 17,
+      "opinionWord": "高3",
+      "polarity": 1
+    },
+    {
+      "count": 17,
+      "opinionWord": "高4",
+      "polarity": 1
+    },
+    {
+      "count": 17,
+      "opinionWord": "差2",
+      "polarity": -1
+    },
+    {
+      "count": 17,
+      "opinionWord": "差3",
+      "polarity": -1
+    },
+    {
+      "count": 17,
+      "opinionWord": "差4",
+      "polarity": -1
+    }
+  ],
+  "sentence": [
+    {
+      "opinionWord": "高",
+      "detail": "实在是高",
+      "category": "AMD"
+    },
+    {
+      "opinionWord": "高",
+      "detail": "确实是高",
+      "category": "AMD"
+    },
+    {
+      "opinionWord": "高",
+      "detail": "确实是高",
+      "category": "AMD"
+    },
+    {
+      "opinionWord": "高",
+      "detail": "确实是高",
+      "category": "AMD"
+    },
+    {
+      "opinionWord": "高",
+      "detail": "确实是高",
+      "category": "AMD"
+    }
+  ],
+  "more": [
+    {
+      "count": 17,
+      "opinionWord": "高",
+      "polarity": 1
+    },
+    {
+      "count": 17,
+      "opinionWord": "高1",
+      "polarity": 1
+    },
+    {
+      "count": 17,
+      "opinionWord": "差",
+      "polarity": -1
+    },
+    {
+      "count": 17,
+      "opinionWord": "高2",
+      "polarity": 1
+    },
+    {
+      "count": 17,
+      "opinionWord": "差1",
+      "polarity": -1
+    },
+    {
+      "count": 17,
+      "opinionWord": "高3",
+      "polarity": 1
+    },
+    {
+      "count": 17,
+      "opinionWord": "高4",
+      "polarity": 1
+    },
+    {
+      "count": 17,
+      "opinionWord": "差2",
+      "polarity": -1
+    },
+    {
+      "count": 17,
+      "opinionWord": "差3",
+      "polarity": -1
+    },
+    {
+      "count": 17,
+      "opinionWord": "差4",
+      "polarity": -1
+    },
+    {
+      "opinionWord": "高5",
+      "count": 12,
+      "polarity": 1
+    },
+    {
+      "opinionWord": "差5",
+      "count": 124,
+      "polarity": -1
+    }
+  ]
+}

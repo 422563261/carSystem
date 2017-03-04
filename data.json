@@ -161,5 +161,75 @@
       "count": 124,
       "polarity": -1
     }
-  ]
+  ],
+  "feature": {
+    "0": [
+      {
+        "count": 1,
+        "feature": "外观",
+        "opinionWord": "小",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "外观",
+        "opinionWord": "充足",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "外观",
+        "opinionWord": "豪华",
+        "polarity": 0
+      }
+    ],
+    "1": [
+      {
+        "count": 1,
+        "feature": "价",
+        "opinionWord": "漂亮",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "价",
+        "opinionWord": "基本",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "价",
+        "opinionWord": "高",
+        "polarity": 0
+      }
+    ],
+    "2": [
+      {
+        "count": 1,
+        "feature": "座椅",
+        "opinionWord": "不错",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "座椅",
+        "opinionWord": "舒服",
+        "polarity": 0
+      }
+    ],
+    "3": [
+      {
+        "count": 1,
+        "feature": "油耗",
+        "opinionWord": "友好",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "油耗",
+        "opinionWord": "低",
+        "polarity": 0
+      }
+    ]
+  }
 }

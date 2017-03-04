@@ -29,6 +29,7 @@ var countScore = appData.countScore;
 var countTop5 = appData.countTop5;
 var sentence = appData.sentence;
 var more = appData.more;
+var feature = appData.feature;
 router.get('/category', function (req, res) {
   res.json({
     errno: 0,
@@ -57,6 +58,12 @@ router.get('/more', function (req, res) {
   res.json({
     errno: 0,
     data: more
+  })
+});
+router.get('/feature', function (req, res) {
+  res.json({
+    errno: 0,
+    data: feature
   })
 });
 app.use('/Server', router);

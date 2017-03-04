@@ -51,7 +51,7 @@
                 }]
               };
               that.$nextTick(function () {
-                that.setPie(pieOption);
+                that._setPie(pieOption);
               })
             }
           })
@@ -129,7 +129,7 @@
                 ]
               };
               that.$nextTick(function () {
-                that.setBar(barOption);
+                that._setBar(barOption);
               })
             }
           })
@@ -137,11 +137,11 @@
             console.log(err);
           })
       },
-      setPie (option) {
+      _setPie (option) {
         let pie = echarts.init(document.getElementById('pie'));
         pie.setOption(option);
       },
-      setBar (option) {
+      _setBar (option) {
         let bar = echarts.init(document.getElementById('bar'));
         bar.setOption(option);
       }

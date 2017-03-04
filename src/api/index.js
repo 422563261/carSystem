@@ -1,16 +1,18 @@
 import axios from 'axios'
+import model from './model'
+import address from './adress'
 
-let model = 0;
-let baseURL = model ? '' : '/Server';
+let baseURL = model.type ? '/car' : '/Server';
 
 const request = axios.create({
   baseURL: baseURL
-})
-
+});
+console.log(address)
 export default {
-  getCategory: () => request.get('/category'),
-  getCountScore: (value) => request.get('/countScore', {params: {category: value}}),
-  getCountTop5: (value) => request.get('/countTop5', {params: {category: value}}),
-  getMore: (value) => request.get('/more', {params: {category: value}}),
-  getDetail: (value, word) => request.get('/sentence', {params: {category: value, opinionWord: word}})
+  getCategory: () => request.get(address.getCategory),
+  getCountScore: (value) => request.get(address.getCountScore, {params: {category: value}}),
+  getCountTop5: (value) => request.get(address.getCountTop5, {params: {category: value}}),
+  getMore: (value) => request.get(address.getMore, {params: {category: value}}),
+  getDetail: (value, word) => request.get(address.getDetail, {params: {category: value, opinionWord: word}}),
+  getFeature: (value) => request.get(address.getFeature)
 }

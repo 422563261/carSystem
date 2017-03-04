@@ -18,6 +18,7 @@
       <analysis :value="value" ref="analysis" v-show="origin"></analysis>
       <div class="tips" v-show="origin"><a @click="_showComments">查看更多评论</a></div>
       <comments ref="comments" :value="value"></comments>
+      <feature ref="feature" :value="value" v-show="origin"></feature>
     </div>
   </div>
 </template>
@@ -26,6 +27,7 @@
   import API from 'api'
   import analysis from 'components/analysis/analysis'
   import comments from 'components/comments/comments'
+  import feature from 'components/feature/feature'
   export default {
     name: 'app',
     data () {
@@ -38,7 +40,7 @@
       }
     },
     components: {
-      analysis, comments
+      analysis, comments, feature
     },
     created () {
       let that = this;
@@ -64,6 +66,8 @@
           this._originFrom();
           this._getCountScore();
           this._getCountTop5();
+          this._getCommons();
+          this._getFeature();
         }
       },
       _getCountScore () {
@@ -71,6 +75,12 @@
       },
       _getCountTop5 () {
         this.$refs['analysis'].getCountTop5();
+      },
+      _getCommons () {
+        this.$refs['comments'].getComments();
+      },
+      _getFeature () {
+        this.$refs['feature'].getFeature()
       },
       _originFrom () {
         this.origin = true
@@ -84,6 +94,7 @@
 
 <style lang="stylus" rel="stylesheet/stylus">
   #app
+    cursor default
     .header
       width 1000px
       margin 0 auto

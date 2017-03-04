@@ -19,7 +19,7 @@
       </div>
       <div class="detail">
         <ul>
-          <li v-for="(item,index) in sentence" class="item">{{index}}-{{item.detail}}</li>
+          <li v-for="(item,index) in sentence" class="item">{{index}}.{{item.detail}}</li>
         </ul>
       </div>
     </div>
@@ -39,9 +39,6 @@
       }
     },
     props: ['value'],
-    mounted () {
-      this._initComments();
-    },
     methods: {
       showComments () {
         this.show = true;
@@ -49,7 +46,7 @@
       _hideComments () {
         this.show = false;
       },
-      _initComments () {
+      getComments () {
         let that = this;
         API.getMore(that.value)
           .then(function (res) {
@@ -109,6 +106,7 @@
       font-size 40px
       line-height: 40px
       text-align center
+      cursor: pointer;
     .content
       display flex
       .pos, .neg
@@ -127,6 +125,7 @@
           line-height 16px
           margin-top 5px
           padding 5px 0
+          cursor pointer
     .detail
       width 700px
       margin 20px auto 0

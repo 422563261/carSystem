@@ -15,7 +15,9 @@
         <span class="name">口碑来源:</span>
         <span class="text" v-show="origin">汽车之家</span>
       </div>
-      <analysis :value="value" ref="analysis"></analysis>
+      <analysis :value="value" ref="analysis" v-show="origin"></analysis>
+      <div class="tips" v-show="origin"><a @click="_showComments">查看更多评论</a></div>
+      <comments ref="comments" :value="value"></comments>
     </div>
   </div>
 </template>
@@ -23,6 +25,7 @@
 <script>
   import API from 'api'
   import analysis from 'components/analysis/analysis'
+  import comments from 'components/comments/comments'
   export default {
     name: 'app',
     data () {
@@ -35,7 +38,7 @@
       }
     },
     components: {
-      analysis
+      analysis, comments
     },
     created () {
       let that = this;
@@ -64,7 +67,6 @@
         }
       },
       _getCountScore () {
-        console.log(2)
         this.$refs['analysis'].getCountScore();
       },
       _getCountTop5 () {
@@ -72,6 +74,9 @@
       },
       _originFrom () {
         this.origin = true
+      },
+      _showComments () {
+        this.$refs['comments'].showComments();
       }
     }
   }
@@ -80,23 +85,23 @@
 <style lang="stylus" rel="stylesheet/stylus">
   #app
     .header
-      max-width 1000px
+      width 1000px
       margin 0 auto
       font-size 40px
       text-align center
       padding 20px 10px
       box-sizing border-box
       border 1px solid #999898
-      border-top none
     .bodyer
       position relative
       overflow hidden
-      max-width 1000px
+      width 1000px
+      min-height 300px
       margin 0 auto
       padding 50px 50px
       box-sizing border-box
-      border-left 1px solid #999898
-      border-right 1px solid #999898
+      border 1px solid #999898
+      border-top none
       .chooseCar
         .name
           display inline-block
@@ -118,4 +123,9 @@
           left 0
         .text
           margin-left 10px
+      .tips
+        height 16px
+        font-size 16px
+        padding-left 300px
+        text-align center
 </style>

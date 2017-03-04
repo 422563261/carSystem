@@ -2,7 +2,6 @@
   <div class="analysis">
     <div class="pie" id="pie"></div>
     <div class="bar" id="bar"></div>
-    <div class="tips">123</div>
   </div>
 </template>
 <script type="text/ecmascript-6">
@@ -16,7 +15,6 @@
     props: ['value'],
     methods: {
       getCountScore () {
-        console.log(1)
         let that = this;
         API.getCountScore(that.value)
           .then(function (res) {
@@ -102,9 +100,9 @@
                     name: '好评TOP5',
                     type: 'funnel',
                     width: '30%',
-                    height: '45%',
+                    height: '65%',
                     left: '10%',
-                    top: '30%',
+                    top: '20%',
                     data: [
                       {value: posArray[0].count, name: posArray[0].opinionWord},
                       {value: posArray[1].count, name: posArray[1].opinionWord},
@@ -117,9 +115,9 @@
                     name: '差评TOP5',
                     type: 'funnel',
                     width: '30%',
-                    height: '45%',
-                    left: '55%',
-                    top: '30%',
+                    height: '65%',
+                    left: '60%',
+                    top: '20%',
                     data: [
                       {value: negArray[0].count, name: negArray[0].opinionWord},
                       {value: negArray[1].count, name: negArray[1].opinionWord},
@@ -154,13 +152,11 @@
   .analysis
     margin-top 100px
     display flex
-    height 300px
+    height 500px
     .pie
       display inline-block
       width 300px
-      height 300px
     .bar
       display inline-block
       flex 1
-      position: relative
 </style>

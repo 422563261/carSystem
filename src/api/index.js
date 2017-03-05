@@ -14,5 +14,5 @@ export default {
   getCountTop5: (value) => request.get(address.getCountTop5, {params: {category: value}}),
   getMore: (value) => request.get(address.getMore, {params: {category: value}}),
   getDetail: (value, word) => request.get(address.getDetail, {params: {category: value, opinionWord: word}}),
-  getFeature: (value) => request.get(address.getFeature)
+  getFeature: (value) => request.get(address.getFeature, {params: {category: value}})
 }

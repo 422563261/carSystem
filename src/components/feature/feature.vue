@@ -49,9 +49,11 @@
         let that = this;
         API.getFeature(that.value)
           .then(function (res) {
+            console.log(res)
             res = res.data;
             if (res.errno === 0) {
               that.feature = res.data;
+              console.log(that.feature)
               that._splitFeature();
             }
           })
@@ -64,6 +66,10 @@
         this.info2 = this.feature[1];
         this.info3 = this.feature[2];
         this.info4 = this.feature[3];
+        console.log(this.info1);
+        console.log(this.info2);
+        console.log(this.info3);
+        console.log(this.info4);
       }
     }
   }
@@ -82,7 +88,9 @@
           line-height 28px
           margin-bottom 20px
         ul
-          width 200px
+          max-height 380px
+          overflow: auto
+          width 400px
           margin 0 auto
           li
             font-size 16px

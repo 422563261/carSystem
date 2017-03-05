@@ -76,6 +76,81 @@
   "sentence": [
     {
       "opinionWord": "高",
+      "detail": "实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高实在是高",
+      "category": "AMD"
+    },
+    {
+      "opinionWord": "高",
+      "detail": "确实是高",
+      "category": "AMD"
+    },
+    {
+      "opinionWord": "高",
+      "detail": "确实是高",
+      "category": "AMD"
+    },
+    {
+      "opinionWord": "高",
+      "detail": "确实是高",
+      "category": "AMD"
+    },
+    {
+      "opinionWord": "高",
+      "detail": "确实是高",
+      "category": "AMD"
+    },
+    {
+      "opinionWord": "高",
+      "detail": "实在是高",
+      "category": "AMD"
+    },
+    {
+      "opinionWord": "高",
+      "detail": "确实是高",
+      "category": "AMD"
+    },
+    {
+      "opinionWord": "高",
+      "detail": "确实是高",
+      "category": "AMD"
+    },
+    {
+      "opinionWord": "高",
+      "detail": "确实是高",
+      "category": "AMD"
+    },
+    {
+      "opinionWord": "高",
+      "detail": "确实是高",
+      "category": "AMD"
+    },
+    {
+      "opinionWord": "高",
+      "detail": "实在是高",
+      "category": "AMD"
+    },
+    {
+      "opinionWord": "高",
+      "detail": "确实是高",
+      "category": "AMD"
+    },
+    {
+      "opinionWord": "高",
+      "detail": "确实是高",
+      "category": "AMD"
+    },
+    {
+      "opinionWord": "高",
+      "detail": "确实是高",
+      "category": "AMD"
+    },
+    {
+      "opinionWord": "高",
+      "detail": "确实是高",
+      "category": "AMD"
+    },
+    {
+      "opinionWord": "高",
       "detail": "实在是高",
       "category": "AMD"
     },
@@ -160,10 +235,202 @@
       "opinionWord": "差5",
       "count": 124,
       "polarity": -1
+    },
+    {
+      "count": 17,
+      "opinionWord": "高",
+      "polarity": 1
+    },
+    {
+      "count": 17,
+      "opinionWord": "高1",
+      "polarity": 1
+    },
+    {
+      "count": 17,
+      "opinionWord": "差",
+      "polarity": -1
+    },
+    {
+      "count": 17,
+      "opinionWord": "高2",
+      "polarity": 1
+    },
+    {
+      "count": 17,
+      "opinionWord": "差1",
+      "polarity": -1
+    },
+    {
+      "count": 17,
+      "opinionWord": "高3",
+      "polarity": 1
+    },
+    {
+      "count": 17,
+      "opinionWord": "高4",
+      "polarity": 1
+    },
+    {
+      "count": 17,
+      "opinionWord": "差2",
+      "polarity": -1
+    },
+    {
+      "count": 17,
+      "opinionWord": "差3",
+      "polarity": -1
+    },
+    {
+      "count": 17,
+      "opinionWord": "差4",
+      "polarity": -1
+    },
+    {
+      "opinionWord": "高5",
+      "count": 12,
+      "polarity": 1
+    },
+    {
+      "opinionWord": "差5",
+      "count": 124,
+      "polarity": -1
+    },
+    {
+      "count": 17,
+      "opinionWord": "高",
+      "polarity": 1
+    },
+    {
+      "count": 17,
+      "opinionWord": "高1",
+      "polarity": 1
+    },
+    {
+      "count": 17,
+      "opinionWord": "差",
+      "polarity": -1
+    },
+    {
+      "count": 17,
+      "opinionWord": "高2",
+      "polarity": 1
+    },
+    {
+      "count": 17,
+      "opinionWord": "差1",
+      "polarity": -1
+    },
+    {
+      "count": 17,
+      "opinionWord": "高3",
+      "polarity": 1
+    },
+    {
+      "count": 17,
+      "opinionWord": "高4",
+      "polarity": 1
+    },
+    {
+      "count": 17,
+      "opinionWord": "差2",
+      "polarity": -1
+    },
+    {
+      "count": 17,
+      "opinionWord": "差3",
+      "polarity": -1
+    },
+    {
+      "count": 17,
+      "opinionWord": "差4",
+      "polarity": -1
+    },
+    {
+      "opinionWord": "高5",
+      "count": 12,
+      "polarity": 1
+    },
+    {
+      "opinionWord": "差5",
+      "count": 124,
+      "polarity": -1
     }
   ],
   "feature": {
     "0": [
+      {
+        "count": 1,
+        "feature": "外观",
+        "opinionWord": "小",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "外观",
+        "opinionWord": "充足",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "外观",
+        "opinionWord": "豪华",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "外观",
+        "opinionWord": "小",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "外观",
+        "opinionWord": "充足",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "外观",
+        "opinionWord": "豪华",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "外观",
+        "opinionWord": "小",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "外观",
+        "opinionWord": "充足",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "外观",
+        "opinionWord": "豪华",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "外观",
+        "opinionWord": "小",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "外观",
+        "opinionWord": "充足",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "外观",
+        "opinionWord": "豪华",
+        "polarity": 0
+      },
       {
         "count": 1,
         "feature": "外观",
@@ -201,6 +468,114 @@
         "feature": "价",
         "opinionWord": "高",
         "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "价",
+        "opinionWord": "漂亮",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "价",
+        "opinionWord": "基本",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "价",
+        "opinionWord": "高",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "价",
+        "opinionWord": "漂亮",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "价",
+        "opinionWord": "基本",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "价",
+        "opinionWord": "高",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "价",
+        "opinionWord": "漂亮",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "价",
+        "opinionWord": "基本",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "价",
+        "opinionWord": "高",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "价",
+        "opinionWord": "漂亮",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "价",
+        "opinionWord": "基本",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "价",
+        "opinionWord": "高",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "价",
+        "opinionWord": "漂亮",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "价",
+        "opinionWord": "基本",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "价",
+        "opinionWord": "高",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "价",
+        "opinionWord": "漂亮",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "价",
+        "opinionWord": "基本",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "价",
+        "opinionWord": "高",
+        "polarity": 0
       }
     ],
     "2": [
@@ -215,9 +590,177 @@
         "feature": "座椅",
         "opinionWord": "舒服",
         "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "座椅",
+        "opinionWord": "不错",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "座椅",
+        "opinionWord": "舒服",
+        "polarity": 0
+      }
+      ,{
+        "count": 1,
+        "feature": "座椅",
+        "opinionWord": "不错",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "座椅",
+        "opinionWord": "舒服",
+        "polarity": 0
+      }
+      ,{
+        "count": 1,
+        "feature": "座椅",
+        "opinionWord": "不错",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "座椅",
+        "opinionWord": "舒服",
+        "polarity": 0
+      }
+      ,{
+        "count": 1,
+        "feature": "座椅",
+        "opinionWord": "不错",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "座椅",
+        "opinionWord": "舒服",
+        "polarity": 0
+      }
+      ,{
+        "count": 1,
+        "feature": "座椅",
+        "opinionWord": "不错",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "座椅",
+        "opinionWord": "舒服",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "座椅",
+        "opinionWord": "不错",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "座椅",
+        "opinionWord": "舒服",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "座椅",
+        "opinionWord": "不错",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "座椅",
+        "opinionWord": "舒服",
+        "polarity": 0
       }
     ],
     "3": [
+      {
+        "count": 1,
+        "feature": "油耗",
+        "opinionWord": "友好",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "油耗",
+        "opinionWord": "低",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "油耗",
+        "opinionWord": "友好",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "油耗",
+        "opinionWord": "低",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "油耗",
+        "opinionWord": "友好",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "油耗",
+        "opinionWord": "低",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "油耗",
+        "opinionWord": "友好",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "油耗",
+        "opinionWord": "低",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "油耗",
+        "opinionWord": "友好",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "油耗",
+        "opinionWord": "低",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "油耗",
+        "opinionWord": "友好",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "油耗",
+        "opinionWord": "低",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "油耗",
+        "opinionWord": "友好",
+        "polarity": 0
+      },
+      {
+        "count": 1,
+        "feature": "油耗",
+        "opinionWord": "低",
+        "polarity": 0
+      },
       {
         "count": 1,
         "feature": "油耗",

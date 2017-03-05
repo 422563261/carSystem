@@ -63,11 +63,13 @@
         if (!this.value) {
           this.origin = false;
         } else {
-          this._originFrom();
-          this._getCountScore();
-          this._getCountTop5();
-          this._getCommons();
-          this._getFeature();
+          this.$nextTick(function () {
+            this._originFrom();
+            this._getCountScore();
+            this._getCountTop5();
+            this._getCommons();
+            this._getFeature();
+          })
         }
       },
       _getCountScore () {
@@ -80,7 +82,7 @@
         this.$refs['comments'].getComments();
       },
       _getFeature () {
-        this.$refs['feature'].getFeature()
+        this.$refs['feature'].getFeature();
       },
       _originFrom () {
         this.origin = true

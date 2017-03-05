@@ -12,6 +12,8 @@
     data () {
       return {}
     },
+    created () {
+    },
     props: ['value'],
     methods: {
       getCountScore () {
@@ -21,6 +23,7 @@
             res = res.data;
             if (res.errno === 0) {
               that.countScore = res.data[0];
+              console.log(that.countScore)
               let pieOption = {
                 title: {
                   text: '口碑指数',
@@ -66,6 +69,7 @@
             res = res.data;
             if (res.errno === 0) {
               that.countTop5 = res.data;
+              console.log(that.countTop5);
               let posArray = [];
               let negArray = [];
               that.countTop5.forEach(function (value) {

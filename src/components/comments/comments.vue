@@ -13,7 +13,8 @@
         <div class="neg">
           <h1>差评</h1>
           <ul>
-            <li v-for="item in negArray" class="item" @click="_getDetail($event)">{{item.opinionWord}}({{item.count}})</li>
+            <li v-for="item in negArray" class="item" @click="_getDetail($event)">{{item.opinionWord}}({{item.count}})
+            </li>
           </ul>
         </div>
       </div>
@@ -69,6 +70,7 @@
       _getDetail (event) {
         let that = this;
         let word = event.target.textContent;
+        word = word.substr(0, word.indexOf('('));
         API.getDetail(that.value, word)
           .then(function (res) {
             res = res.data;
@@ -94,6 +96,8 @@
     box-sizing border-box
     padding 50px
     transform translate3d(0, 0, 0)
+    z-index 999
+    overflow auto
     &.slide-enter-active, &.slide-leave-active
       transition all .5s
     &.slide-enter, &.slide-leave-active
@@ -118,8 +122,10 @@
           line-height 28px
           margin-bottom 20px
         ul
-          width 150px
+          width 300px
           margin 0 auto
+          max-height 300px
+          overflow auto
         .item
           font-size 16px
           line-height 16px
@@ -130,9 +136,11 @@
       width 700px
       margin 20px auto 0
       font-size 16px
-      overflow auto
       .item
         font-size 16px
         line-height 16px
         margin-top 5px
+        white-space nowrap
+        overflow hidden
+        text-overflow ellipsis
 </style>

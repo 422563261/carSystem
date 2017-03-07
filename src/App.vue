@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <div class="header">
-      <h1>口碑特征提取与情感分析系统</h1>
-    </div>
+    <v-header></v-header>
     <div class="bodyer">
       <form action="" class="chooseCar" id="chooseCar">
         <span class="name">汽车型号:</span>
@@ -28,6 +26,7 @@
   import analysis from 'components/analysis/analysis'
   import comments from 'components/comments/comments'
   import feature from 'components/feature/feature'
+  import header from 'components/header/header'
   export default {
     name: 'app',
     data () {
@@ -40,7 +39,7 @@
       }
     },
     components: {
-      analysis, comments, feature
+      analysis, comments, feature, 'v-header': header
     },
     created () {
       let that = this;
@@ -97,23 +96,14 @@
 <style lang="stylus" rel="stylesheet/stylus">
   #app
     cursor default
-    .header
-      width 1000px
-      margin 0 auto
-      font-size 40px
-      text-align center
-      padding 20px 10px
-      box-sizing border-box
-      border 1px solid #999898
     .bodyer
       position relative
       overflow hidden
       width 1000px
       min-height 300px
       margin 0 auto
-      padding 50px 50px
+      padding 50px 25px
       box-sizing border-box
-      border 1px solid #999898
       border-top none
       .chooseCar
         .name
